@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Distributed.Caching",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Caching", "InMemory.Caching\InMemory.Caching.csproj", "{9E1C0B44-189D-4B56-B8D0-46E1C995D70F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Publisher.Example", "Redis.Pub.Sub.Example\Redis.Pub.Sub.Publisher.Example.csproj", "{2B850FC6-98BF-4D08-82B3-9699112C396E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Pub.Sub.Publisher.Example", "Redis.Pub.Sub.Example\Redis.Pub.Sub.Publisher.Example.csproj", "{2B850FC6-98BF-4D08-82B3-9699112C396E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Subscriber.Example", "Redis.Pub.Sub.Subscriber.Example\Redis.Pub.Sub.Subscriber.Example.csproj", "{AD05A8B3-820E-4F1E-BD75-2430C3D9C4B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Pub.Sub.Subscriber.Example", "Redis.Pub.Sub.Subscriber.Example\Redis.Pub.Sub.Subscriber.Example.csproj", "{AD05A8B3-820E-4F1E-BD75-2430C3D9C4B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Sentinel", "Redis.Sentinel\Redis.Sentinel.csproj", "{C253DFE8-3733-4E23-9C6C-00E1EA3309F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AD05A8B3-820E-4F1E-BD75-2430C3D9C4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD05A8B3-820E-4F1E-BD75-2430C3D9C4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD05A8B3-820E-4F1E-BD75-2430C3D9C4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C253DFE8-3733-4E23-9C6C-00E1EA3309F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C253DFE8-3733-4E23-9C6C-00E1EA3309F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C253DFE8-3733-4E23-9C6C-00E1EA3309F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C253DFE8-3733-4E23-9C6C-00E1EA3309F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
